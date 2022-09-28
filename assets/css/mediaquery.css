@@ -1,0 +1,486 @@
+
+@media (min-width: 500px) {
+  #home{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center
+  }
+
+.home-text-card{
+    display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center
+}
+
+.home-small-text{
+    width:400px;
+    text-align:center
+}
+
+/*STATISTICS*/
+
+ 
+.my-statistics{
+  grid-template-columns: repeat(2,150px);
+  justify-content:center;
+      align-items:center;
+}
+
+
+/* PORTFOLIO*/
+
+  #portfolio{
+     display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    padding-top:100px;
+  }
+
+.home-port-img{
+ width:300px;
+  height:300px;
+}
+
+/* ABOUT*/
+
+#home-about{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+}
+  
+.home-abt-img{
+ width:300PX;
+    height:300px;
+}
+
+.about-text-card{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+}
+
+
+/* WORK PROCESS */
+
+#work-process{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+  padding-top:70px;
+}
+
+#work-process-mother{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+}
+
+ .work-process-card{
+   display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+ }
+
+/*SERVICES*/
+
+#services{
+  display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+}
+
+ .service-card{
+   display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+   text-align:center;
+}
+
+ 
+      
+    }
+
+
+
+@media (min-width: 768px) {
+ 
+
+.home-small-text{
+    width:500px;
+    text-align:center
+}
+
+/* STATISTICS*/
+ 
+.my-statistics{
+  display:flex;
+  justify-content:center;
+      align-items:center;
+ text-align:center;
+  padding-top:50px;
+}
+
+.stats-card h1{
+ font-size:35px;
+}
+
+ .stats-card p{
+ font-size:20px;
+}
+ 
+
+/* PORTFOLIO*/
+
+  #portfolio{
+     display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    padding-top:100px;
+  }
+
+.port-container{
+display:grid;
+ grid-template-columns:repeat(2,320px);
+ justify-content:center;
+      align-items:center;
+}
+ 
+.home-port-img{
+ width:290px;
+  height:290px;
+}
+
+/* ABOUT*/
+
+#home-about{
+ display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+  gap:50px;
+}
+  
+.home-abt-img{
+ width:300px;
+    height:300px;
+}
+
+.about-text-card{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+}
+
+.about-text-card h3{
+  width:300px;
+}
+
+ .about-text-card p{
+  width:250px;
+ 
+}
+
+
+
+ 
+
+/* WORK PROCESS */
+
+#work-process{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+  padding-top:70px;
+}
+
+#work-process-mother{
+  display:grid;
+      grid-template-columns:repeat(2,300px);
+       justify-content:center;
+       align-items:center;
+ }
+ 
+  .work-process-card{
+    display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+   width:250px;
+  }
+/*SERVICES*/
+
+#services{
+  display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+}
+
+.service-card-mother{
+  display:grid;
+      grid-template-columns:repeat(2,300px);
+       justify-content:center;
+       align-items:center;
+}
+ 
+ .service-card{
+   display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+   text-align:center;
+   width:250px;
+}
+
+ 
+      
+    }
+
+
+
+
+@media (min-width: 1024px) {
+/*MENU AND NAV BAR*/
+#menu-bar{
+  display:flex;
+   flex-direction:row; 
+   z-index:1;
+   position:fixed;
+  height:0px;
+  background-color:transparent;
+    visibility: visible;
+    justify-content:end;
+    top:40px;
+     visibility: visible;
+    right:50px;
+  }
+  
+  
+  
+  .menu-btns{
+   visibility:hidden;
+  }
+  
+  
+  
+  
+  .nav-link-card{
+   font-weight:600;
+    font-family: 'Raleway', sans-serif;
+   top:20px;
+   font-size:14px;
+    display:inline-flex;
+    visibility: visible;
+         margin:15px;
+                 border:none;
+        }
+
+   .slide{
+           visibility: visible;
+          left:-40px;
+         }
+  
+  .nav-social{
+    display:none;
+  }
+  
+  
+  .nav-social img{
+   width:23px;
+   display:none;
+  }
+  
+  
+  .nav-link a{
+   text-decoration:none;
+  
+  }
+  
+  .nav-link a:hover{
+   text-decoration:none;
+  
+  } 
+  
+/*END OF MENU AND NAV BAR */
+
+
+
+
+
+
+   #home{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+    margin-top:50px;
+  }
+
+.home-text-card{
+    display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center
+}
+
+.home-small-text{
+    width:300px;
+    text-align:center
+}
+
+
+.home-img-img{
+   width:400px;
+ height:400px;
+}
+ 
+
+/* STATISTICS*/
+ 
+.my-statistics{
+  display:flex;
+  justify-content:center;
+      align-items:center;
+ text-align:center;
+  padding-top:100px;
+}
+
+.stats-card h1{
+ font-size:38px;
+}
+
+ .stats-card p{
+ font-size:24px;
+}
+ 
+
+/* PORTFOLIO*/
+
+  #portfolio{
+     display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    padding-top:100px;
+  }
+
+.port-container{
+display:grid;
+ grid-template-columns:repeat(3,290px);
+ justify-content:center;
+      align-items:center;
+}
+ 
+.home-port-img{
+ width:250px;
+  height:250px;
+}
+
+/* ABOUT*/
+
+#home-about{
+ display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+  gap:50px;
+}
+  
+.home-abt-img{
+ width:350px;
+    height:350px;
+}
+
+.about-text-card{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+}
+
+.about-text-card h3{
+  width:400px;
+}
+
+ .about-text-card p{
+  width:400px;
+ 
+}
+
+
+
+/* WORK PROCESS */
+
+#work-process{
+ display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+  padding-top:70px;
+}
+
+#work-process-mother{
+  display:grid;
+      grid-template-columns:repeat(3,300px);
+       justify-content:center;
+       align-items:center;
+ }
+ 
+  .work-process-card{
+    display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+   width:200px;
+  }
+/*SERVICES*/
+
+#services{
+  display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+  text-align:center;
+}
+
+.service-card-mother{
+  display:grid;
+      grid-template-columns:repeat(3,300px);
+       justify-content:center;
+       align-items:center;
+}
+ 
+ .service-card{
+   display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+   text-align:center;
+   width:250px;
+}
+
+ 
+      
+    }
